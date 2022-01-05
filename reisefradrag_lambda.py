@@ -53,4 +53,6 @@ def lambda_handler(event, context):
     else:
         reisefradrag = 0
 
-    return {"reisefradrag": int(reisefradrag)}
+    json_reisefradrag = json.dumps({"reisefradrag": int(reisefradrag)})
+
+    return json_reisefradrag
