@@ -17,8 +17,8 @@ person = {
 }
 
 ### Contains
-reisefradrag_lambda.py -> lambda function used at server side
-test_reisefradrag.py -> includes assert tests to verify that reisefradrag API correct output values. Compares the reisefradrag API to the solution API.
+- reisefradrag_lambda.py -> lambda function used at server side
+- test_reisefradrag.py -> includes assert tests to verify that reisefradrag API correct output values. Compares the reisefradrag API to the solution API.
 
 
 ### dependencies
