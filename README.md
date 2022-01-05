@@ -1,6 +1,6 @@
-Reisefradrag API
+### Reisefradrag API
 
-# Usage
+### Usage
 Calculate your reisefradag using a POST request to the url: https://bjzvvrj95h.execute-api.us-east-1.amazonaws.com/reisefradrag
 
 example body:
@@ -17,5 +17,5 @@ person = {
 }
 
 
-# dependencies
+### dependencies
 - pip install requests (required to run test_reisefradrag.py)
