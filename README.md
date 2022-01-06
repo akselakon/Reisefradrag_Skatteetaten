@@ -22,4 +22,4 @@ person = {
 
 
 ### dependencies
-- pip install requests (required to run test_reisefradrag.py)
+- -pip install requests (required to run test_reisefradrag.py)
