@@ -8,9 +8,14 @@ def add_km(tot_km, reiser):
         tot_km = tot_km + km * ant
     return tot_km
 
+
+
 def lambda_handler(event, context):
     # henter ut body
-    y = json.loads(event['body'])
+    try:
+        y = json.loads(event['body'])
+    except json.JSONDecodeError:
+        return {"400": "Bad Request error"}
 
     # initierer variabler
     ovregrense = 75000
